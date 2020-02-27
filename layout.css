@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+}
+.wrapper{
+	width: 1920px;
+	height: 937px;
+	display: grid;
+	grid-template-rows: 6.5% 88% 5.5%;
+	background-image: url('https://live.staticflickr.com/65535/47036840464_00b3378b53_6k.jpg');
+	background-size: cover;
+}
+.header {
+	background-color: rgba(3 ,3 ,3, 0.3);
+}
+.footer {
+	background-color: #000;
+}
