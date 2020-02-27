@@ -1,0 +1,30 @@
+body {
+	margin: 0;
+}
+
+.img {
+	background-color: #DDD;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	background-size: cover;
+	background-position: center;
+	transition: opacity 1s;
+}
+.img-1 {
+	background-image: url('./img/img_1.jpg');
+}
+.img-2 {
+	background-image: url('https://live.staticflickr.com/65535/49314594958_2b1732ba50_k.jpg');
+	background-position: 7px -2200px;
+}
+.img-3 {
+	background-image: url('./img/img_3.jpg');
+}
+.img-4 {
+	background-image: url('./img/img_4.jpg');
+}
+.img-5 {
+	background-image: url('./img/img_5.jpg');
+}
