@@ -1,14 +1,11 @@
-body {
-	margin: 0;
-}
-.wrapper-img {
+.wrapper {
 	height: 100vh;
 	width: 100vh;
 	position: relative;
 }
 .img {
 	background-color: #DDD;
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 	background-size: cover;
 	background-position: center;
@@ -18,28 +15,27 @@ body {
 	position: absolute;
 }
 .img-1 {
-	background-image: url('https://live.staticflickr.com/5087/5299568637_84ac909a22_4k.jpg');
+	background-image: url('/img/img_1.jpg');
 	animation: a-slide 60s infinite;
 	opacity: 1;
 }
 .img-2 {
-	background-image: url('https://live.staticflickr.com/65535/49314594958_2b1732ba50_k.jpg');
+	background-image: url('/img/img_2.jpg');
 	animation: b-slide 60s infinite;
-	background-position: 0 -1800px;
 	opacity: 0;
 }
 .img-3 {
-	background-image: url('./img/img_3.jpg');
+	background-image: url('/img/img_3.jpg');
 	animation: c-slide 60s infinite;
 	opacity: 0;
 }
 .img-4 {
-	background-image: url('./img/img_4.jpg');
+	background-image: url('/img/img_4.jpg');
 	animation: d-slide 60s infinite;
 	opacity: 0;
 }
 .img-5 {
-	background-image: url('./img/img_5.jpg');
+	background-image: url('/img/img_5.jpg');
 	animation: e-slide 60s infinite;
 	opacity: 0;
 }

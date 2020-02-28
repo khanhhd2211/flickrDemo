@@ -1,0 +1,19 @@
+body {
+	margin: 0;
+}
+.wrap-elements {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-rows: 9% 83.5% 7.5%;
+}
+.header {
+	background-color: rgba(3 ,3 ,3, 0.3);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer {
+	background-color: #000;
+}

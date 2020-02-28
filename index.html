@@ -2,15 +2,28 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" href="./layout.css">
+	<link rel="stylesheet" href="./css/search-box.css">
+	<link rel="stylesheet" href="./css/slide.css">
+	<link rel="stylesheet" href="./css/layout.css">
 	<title>flickr</title>
 </head>
 <body>
-	<div class="img"></div>
-	<div class="wrapper">
-		<div class="header"></div>
-		<div class="main"></div>
-		<div class="footer"></div>
-	</div>
+	<div id="img_0" class="wrapper">
+		<div id="img_01" class="item img img-1"></div>
+		<div id="img_01" class="item img img-2"></div>
+		<div id="img_01" class="item img img-3"></div>
+		<div id="img_01" class="item img img-4"></div>
+		<div id="img_01" class="item img img-5"></div>
+		<div class="wrap-elements">
+			<div class="header">
+				<form class="wrap-input" method="get">
+					<input class="search-box" name="search" type="text" placeholder="Ảnh, mọi người hoặc nhóm">
+					<input type="submit" class="search-btn" value="">
+				</form>
+			</div>
+			<div class="main"></div>
+			<div class="footer"></div>
+		</div>
+	</div>	
 </body>
 </html>
