@@ -1,0 +1,111 @@
+.link-footer {
+	text-decoration: none;
+	color: #AAA;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	margin: 0 23px;
+}
+.link-footer-10 {
+	position: relative;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+.arrow {
+	position: absolute;
+	top: 23px;
+	right: 0px;
+	width: 10px;
+	height: 10px;
+	background-image: url('/img/arrow.svg');
+}
+.lang-list {
+	position: absolute;
+	right: -16px;
+	bottom: 20px;
+	padding: 10px 0; 
+	border: 0.5px solid #333;
+	color: #333;
+	background-color: white;
+	font-size: 14px;
+	border-radius: 4px;
+	display: none;
+	box-shadow: 0 0 1px #333;
+	box-sizing: content-box;
+}
+.box-arrow {
+	position: absolute;
+	bottom: -3.3%;
+	right: 9%;
+	transform: rotate(45deg);
+	border-bottom: 0.5px solid #333;
+	border-right: 0.5px solid #333;
+	width: 13px;
+	height: 13px;
+	background-color: white;
+}
+.item-list {
+	list-style: none;
+	width: 120px;
+	padding: 2.7px 9px;
+	background-color: unset;
+}
+.link-footer:hover .lang-list {
+	display: block;
+}
+.item-list-1:hover {
+	background-color: #eee;
+}
+.item-list-2:hover {
+	background-color: #eee;
+}
+.item-list-3:hover {
+	background-color: #eee;
+}
+.item-list-4:hover {
+	background-color: #eee;
+}
+.item-list-5:hover {
+	background-color: #eee;
+}
+.item-list-6:hover {
+	background-color: #eee;
+}
+.item-list-7:hover {
+	background-color: #eee;
+}
+.item-list-8:hover {
+	background-color: #eee;
+}
+.item-list-9:hover {
+	background-color: #eee;
+}
+.link-footer-1:hover {
+	color: white;
+}
+.link-footer-2:hover {
+	color: white;
+}
+.link-footer-3:hover {
+	color: white;
+}
+.link-footer-4:hover {
+	color: white;
+}
+.link-footer-5:hover {
+	color: white;
+}
+.link-footer-6:hover {
+	color: white;
+}
+.link-footer-7:hover {
+	color: white;
+}
+.link-footer-8:hover {
+	color: white;
+}
+.link-footer-9:hover {
+	color: white;
+}
+.link-footer-10:hover {
+	color: #777;
+}

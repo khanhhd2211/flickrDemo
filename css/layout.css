@@ -14,5 +14,8 @@ body {
 	align-items: center;
 }
 .footer {
+	display: flex;
 	background-color: #000;
+	justify-content: center;
+	align-items: center;
 }
