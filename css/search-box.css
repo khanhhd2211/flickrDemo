@@ -1,5 +1,6 @@
 .wrap-input {
 	position: relative;
+	flex-grow: 1;
 }
 .search-box {
 	width: 900px;
@@ -27,5 +28,5 @@
 }
 .search-box:focus {
 	background-color: rgba(230, 230, 230, 1);
-
+	box-shadow: 0 0 2.7px #000;
 }

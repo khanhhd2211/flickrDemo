@@ -1,0 +1,32 @@
+.wrap-signin-signup-btn {
+	display: flex;
+	flex-basis: 270px;
+}
+.button {
+	padding: 10px 25px;
+	font-family: 'arial', sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+.signup {
+	color: #333;
+	border: none;
+	background-color: #eee;
+	margin-left: 6px;
+	outline: none;
+	border-radius: 3px;
+	cursor: pointer;
+	box-shadow: 0 0 1px #000;
+}
+.signin {
+	margin-right: 15px;
+	color: white;
+	background-color: unset;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding-right: 0;
+}
+.signup:hover {
+	color: #999;
+}
