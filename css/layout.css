@@ -24,6 +24,14 @@ body {
 	align-items: center;
 }
 @media all and (max-width: 770px) {
+	.footer {
+		justify-content: flex-start;
+		align-items: stretch;
+		box-sizing: content-box;
+	}
+	.wrap-elements {
+		grid-template-rows: 8% 92%;
+	}
 	.wrap-input, .signin {
 		display: none;
 	}
@@ -31,6 +39,9 @@ body {
 		border: 2px solid white;
 		color: white;
 		background-color: transparent;
+	}
+	.signup:hover {
+		color: white;
 	}
 	.wrap-signin-signup-btn .search-btn-01 {
 		display: block;

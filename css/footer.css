@@ -7,13 +7,18 @@
 }
 .link-footer-10 {
 	position: relative;
-	padding-top: 20px;
-	padding-right: 20px;
+	padding-top: 12px;
+}
+.footer-cap {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 .arrow {
-	position: absolute;
-	top: 23px;
-	right: 0px;
+	position: relative;
+	bottom: 12px;
+	right: -120%;
 	width: 10px;
 	height: 10px;
 	background-image: url('/img/arrow.svg');
@@ -21,7 +26,7 @@
 .lang-list {
 	position: absolute;
 	right: -16px;
-	bottom: 20px;
+	bottom: 9px;
 	padding: 10px 0; 
 	border: 0.5px solid #333;
 	color: #333;
@@ -109,4 +114,35 @@
 }
 .link-footer-10:hover {
 	color: #777;
+}
+@media all and (max-width: 770px) {
+	.lang-list {
+		right: -1066%;
+		bottom: 193%;
+	}
+	.box-arrow {
+		bottom: -3.3%;
+		right: 75.1%;	
+	}
+	.arrow {
+		top: -45%;
+		right: -22.8%;
+	}
+	.link-footer {
+		font-size: 16px;
+		padding: 20px 0;
+		border-bottom: 1px solid #eee;
+	}
+	.link-footer-10 {
+		border: none;
+	}
+	.footer-cap {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: stretch;
+		width: 100%;
+		padding: 20px 0;
+		box-sizing: content-box;
+	}
 }
