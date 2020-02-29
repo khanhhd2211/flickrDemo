@@ -5,8 +5,8 @@
 .link {
 	display: block;
 	background-repeat: no-repeat;
-	width: 80px;
-	height:50px;
-	margin-left: 25px;
+	width: 60px;
+	height:40px;
+	margin-left: 15px;
 	background-image: url('/img/logo-flickr.svg');
 }

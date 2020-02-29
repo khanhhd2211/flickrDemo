@@ -3,13 +3,14 @@
 }
 body {
 	margin: 0;
+	width: 100vw;
 }
 .wrap-elements {
 	position: absolute;
 	width: 100vw;
 	height: 100vh;
 	display: grid;
-	grid-template-rows: 9% 83.5% 7.5%;
+	grid-template-rows: 8% 84.5% 7.5%;
 }
 .header {
 	background-color: rgba(3 ,3 ,3, 0.3);
@@ -21,4 +22,24 @@ body {
 	background-color: #000;
 	justify-content: center;
 	align-items: center;
+}
+@media all and (max-width: 770px) {
+	.wrap-input, .signin {
+		display: none;
+	}
+	.signup {
+		border: 2px solid white;
+		color: white;
+		background-color: transparent;
+	}
+	.wrap-signin-signup-btn .search-btn-01 {
+		display: block;
+		margin-right: 16px;
+		width: 23px;
+		height: 23px;
+		background-color: unset;
+		background-image: url('/img/search-btn-01.svg');
+		border: none;
+		outline: none;
+	}
 }

@@ -3,7 +3,7 @@
 	flex-grow: 1;
 }
 .search-box {
-	width: 900px;
+	width: 60vw;
 	height: 33px;
 	border-radius: 3px;
 	padding-left: 46px;
@@ -29,4 +29,9 @@
 .search-box:focus {
 	background-color: rgba(230, 230, 230, 1);
 	box-shadow: 0 0 2.7px #000;
+}
+@media (max-width: 1154px) {
+	.search-box {
+		width: 40vw;
+	}
 }

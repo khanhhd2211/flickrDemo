@@ -1,14 +1,19 @@
 .wrap-signin-signup-btn {
 	display: flex;
-	flex-basis: 270px;
+	flex-basis: 300px;
+	box-sizing: border-box;
+	justify-content: flex-end;
+	align-items: center;
 }
 .button {
-	padding: 10px 25px;
+	padding: 8px 21px;
+	font-size: 14px;
 	font-family: 'arial', sans-serif;
 	font-weight: bold;
 	text-decoration: none;
 }
 .signup {
+	margin-right: 20px;
 	color: #333;
 	border: none;
 	background-color: #eee;
@@ -29,4 +34,16 @@
 }
 .signup:hover {
 	color: #999;
+}
+.search-btn-01 {
+	display: none;
+}
+.close-btn-01 {
+	width: 23px;
+	height: 23px;
+	margin-right: 25px;
+	background-color: unset;
+	border: none;
+	background-image: url('/img/close-btn-01.svg');
+	display: none;
 }
